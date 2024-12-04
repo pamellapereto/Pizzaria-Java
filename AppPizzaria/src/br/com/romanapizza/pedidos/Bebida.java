@@ -13,7 +13,13 @@ public class Bebida extends Produto {
         this.quantidade = quantidade;
     }
     public boolean isAlcool() {return alcool;}
-    public void setAlcool(boolean alcool) {this.alcool = alcool;}
+
+
+    public void setAlcool(boolean alcool) {
+        this.alcool = alcool;
+    }
+
+
     public int getQuantidade() {return quantidade;}
     public void setQuantidade(int quantidade) {this.quantidade = quantidade;}
 }

@@ -16,4 +16,7 @@ public class Comida extends Produto {
         return ingredientes;
      }
 
+    public void setIngredientes(List<String> ingredientes) {
+        this.ingredientes = ingredientes;
+    }
 }
